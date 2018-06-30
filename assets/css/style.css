@@ -1,0 +1,12 @@
+#foodButt {
+    float: left;
+}
+
+#foodForm {
+    float: right;
+}
+
+#foods {
+    float:left;
+    clear: both;
+}

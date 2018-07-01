@@ -1,12 +1,53 @@
 #foodButt {
     float: left;
+    
 }
 
 #foodForm {
     float: right;
+    margin-right: 25px;
 }
 
 #foods {
     float:left;
     clear: both;
+}
+
+button {
+    border-radius: 5px;
+    height: 30%;
+    background-color:#323C47;
+    color: #86E0CE;
+    border-color: #A2A2A6;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+    
+
+}
+
+button:hover {
+    border-radius: 5px;
+    height: 30%;
+    background-color:#86E0CE;
+    color:#323C47;
+    border-color: #A2A2A6;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 33px;
+    margin: 5px 5px 5px 5px;
+    transition: 0.5s;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    margin: 10px 10px 10px 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size:120%;
+    margin-left: 10px;
 }

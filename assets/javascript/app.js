@@ -31,7 +31,7 @@ function displayInfo (){
      }).then(function (response){
          console.log(response);
          var gifDiv = $("<div>");
-         gifDiv.append(foodData);
+         gifDiv.append("<pre>    </pre>" + foodData  + "<br>");
          var data = response.data;
          var newGifDiv =$('<div>');
          newGifDiv.append(data);
@@ -53,7 +53,7 @@ function displayInfo (){
       
             var rating = response.data[i].rating;
       
-            var myElem = $("<h3>");
+            var myElem = $('<p>Rating: </p>');
             myElem.append(rating);
             img.append(myElem);
             gifDiv.append(myElem, img);
